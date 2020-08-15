@@ -16,12 +16,13 @@ class Author extends Model
 
 
     public static $rules = array(
-        'name' => 'required|string',
+        'name' => 'required|string|alpha',
         );
 
     public static $messages = array(
 
         'required' => 'Agregue un nombre.',
+        'alpha' => 'El nombre debe contener solo caracteres alfabeticos',
         
     
     );
