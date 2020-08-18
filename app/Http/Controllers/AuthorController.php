@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Author;
+use App\Models\Author;
 use Illuminate\Http\Request;
 
 use function GuzzleHttp\Promise\all;
